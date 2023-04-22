@@ -1,7 +1,7 @@
 ![CI/CD](https://github.com/irvinm/Parent-Tab-Switcher/workflows/CI/CD/badge.svg)
 
 # Parent Tab Switcher
-A Firefox addon that allows you to use keyboard shortcuts to traverse tabs up or down for tabs that have no parents.
+A Firefox addon that allows you to use keyboard shortcuts to traverse tabs up or down for tabs that have no parents.  The default keyboard shortcuts are Ctrl+Alt+D for next\down and Ctrl+Alt+U for previous\up.  These can be changed in about:addons -> Manage Extension Shortcuts.
 
 This can be useful when used in conjunction with addons like "Tree Style Tabs" and "Sidebery" as this will allow you to active parent tabs of trees up or down which if used as "root tabs of topics" allows you to quickly move across topics.
 
