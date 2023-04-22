@@ -1,10 +1,19 @@
 {
+  "browser_action": {
+    "default_icon": "images/switch.png"
+  },
+  "homepage_url": "https://github.com/irvinm/Parent-Tab-Switcher",
   "manifest_version": 2,
-  "name": "Tab Switcher",
-  "version": "1.0",
-  "description": "An addon that allows you to switch between tabs without parents.",
+  "name": "Parent Tab Switcher",
+  "version": "0.9.0",
+  "description": "An addon that allows you to switch between parent tabs.",
   "icons": {
-    "48": "icon-48.png"
+    "128": "images/switch.png"
+  },
+  "applications": {
+    "gecko": {
+      "id": "Parent-Tab-Switcher@irvinm.addons.mozilla.org"
+    }
   },
   "background": {
     "scripts": ["background.js"]
@@ -15,13 +24,13 @@
       "suggested_key": {
         "default": "Ctrl+Alt+D"
       },
-      "description": "Switch to the next tab without a parent."
+      "description": "Switch to the next parent tab."
     },
     "previous-tab-without-parent": {
       "suggested_key": {
         "default": "Ctrl+Alt+U"
       },
-      "description": "Switch to the previous tab without a parent."
+      "description": "Switch to the previous parent tab."
     }
   }
 }
