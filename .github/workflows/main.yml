@@ -1,0 +1,16 @@
+name: CI/CD
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: build xpi
+        run: make
+      - uses: actions/upload-artifact@master
+        with:
+          name: Parent-Tab-Switcher.xpi
+          path: Parent-Tab-Switcher.xpi
