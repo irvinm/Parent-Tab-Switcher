@@ -26,3 +26,5 @@ In this case, the parent tabs are tabs: 1, 4, 10
   * Starting at tab 3 and going "up", you will go to Tab 1.
   
 If you organize your tab trees around topics, this will allow you to quickly move across topics.
+
+switch.png provided by:  <a href="https://www.flaticon.com/free-icons/tabs" title="tabs icons">Tabs icons created by Pixel perfect - Flaticon</a>
