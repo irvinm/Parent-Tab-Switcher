@@ -5,7 +5,7 @@ A Firefox addon that allows you to use keyboard shortcuts to traverse tabs up or
 
 This can be useful when used in conjunction with addons like "Tree Style Tabs" and "Sidebery" as this will allow you to active parent tabs of trees up or down which if used as "root tabs of topics" allows you to quickly move across topics.  
 
---> **This addon DOES NOT require TST nor Sideberry to be installed to work.**
+--> **This addon DOES NOT require TST nor Sidebery to be installed to work.**
 
 Example:
 * Tab 1
